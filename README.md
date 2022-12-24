@@ -1,3 +1,3 @@
 (C) Mesfin Fikrea works on RSA
 
-this is a reame file how RSA works
+this is a readme file how RSA works
