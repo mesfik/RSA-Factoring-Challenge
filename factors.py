@@ -2,14 +2,11 @@
 
 import sys
 from primes import factors
-from tests import *
 
 
-def main():
-    if __name__ == "__main__":
-        
-        if len(sys.argv) != 2:
-            exit(1)
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        exit(1)
     num = []
     with open(sys.argv[1], 'r') as file:
         lines = file.readlines()
@@ -26,5 +23,3 @@ def main():
                         j = i // j
                         break
             print("{} = {:d}*{}".format(i, i//j, j))
-
-exit(main())
