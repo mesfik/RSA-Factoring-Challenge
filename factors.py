@@ -4,6 +4,7 @@ import sys
 from primes import factors
 from tests import *
 
+
 def main():
     if __name__ == "__main__":
         
